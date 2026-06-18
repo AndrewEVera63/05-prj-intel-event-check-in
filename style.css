@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -240,6 +241,38 @@ button .fas {
 /* Adjust spacing between components */
 .container {
   margin-top: 0;
+}
+
+/* Attendee List */
+.attendee-list {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#attendeeList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#attendeeList li {
+  background: #f8fafc;
+  border-left: 5px solid #0071c5;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #334155;
+  font-weight: 500;
 }
 
 /* Messages */

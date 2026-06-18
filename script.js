@@ -77,6 +77,11 @@ form.addEventListener("submit", function (event) {
     greeting.textContent = `🎉 Attendance Goal Reached! Winning Team: ${winner}`;
   }
 
+  // Add attendee to list
+  const attendee = document.createElement("li");
+  attendee.innerHTML = `<strong>${name}</strong> - ${teamName}`;
+  attendeeList.appendChild(attendee);
+
   // Clear form
   form.reset();
 });
